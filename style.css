@@ -1,0 +1,36 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    height: 1000px;
+    background-color: grey;
+}
+
+header{
+    background-color: #ff6900;
+    padding: 10px;
+    color: white;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    gap: 10px;
+}
+
+ul li{
+    list-style-type: none;
+}
